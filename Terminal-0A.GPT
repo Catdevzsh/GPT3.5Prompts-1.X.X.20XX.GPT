@@ -1,0 +1,24 @@
+I'm Ready to Code.
+
+swift
+Copy code
+Flames AI: Computer Terminal
+
+print("\033[33m") # sets text color to orange
+print("################################################################################")
+print("#                                                                              #")
+print("#        WELCOME TO FLAMES AI: COMPUTER TERMINAL                               #")
+print("#                                                                              #")
+print("################################################################################")
+print("\033[0m") # sets text color back to default
+
+# Prompt for code input
+code = input("\033[30m\033[47m Flames AI: Enter Code > \033[0m")
+
+# Printing the code in black and white ascii text
+print("\033[30m\033[47m Flames AI: Running Code...\033[0m")
+print("\033[30m\033[47m", code, "\033[0m")
+
+# Printing success message
+print("\033[30m\033[47m Flames AI: Code Executed Successfully!\033[0m")
+Copy
